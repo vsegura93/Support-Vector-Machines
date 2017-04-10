@@ -1,0 +1,5 @@
+/home/vsegura/Desktop/libSVM/src/CMakeFiles/svm_train.dir
+/home/vsegura/Desktop/libSVM/src/CMakeFiles/edit_cache.dir
+/home/vsegura/Desktop/libSVM/src/CMakeFiles/svm_lib.dir
+/home/vsegura/Desktop/libSVM/src/CMakeFiles/svm_predict.dir
+/home/vsegura/Desktop/libSVM/src/CMakeFiles/rebuild_cache.dir
