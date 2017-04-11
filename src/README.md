@@ -1,4 +1,3 @@
-SVM_example
-===========
+## SVM example
 
-Just a small svm example to use the libSVM from c++ code
+Main files: svm_train.cpp and svm_predict.cpp
