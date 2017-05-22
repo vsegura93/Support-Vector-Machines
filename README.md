@@ -1,7 +1,9 @@
 # Adaptation of library for Support Vector Machines
 
 ### Install enviroment
-- Execute bash file src/install.sh 
-- Run command make on src to create binary files 
+- Execute ./configure
 
-Adaptation of ref: https://github.com/niosus/SVM_example
+### Library usage
+- Execute svm_train or svm_test binaries on bin folder
+
+Adaptation of reference: https://github.com/niosus/SVM_example
