@@ -12,10 +12,11 @@ FIND_PACKAGE(OpenCV REQUIRED)
 # Add library and executables
 ADD_LIBRARY(
 	svm_lib
-	svm.h svm.cpp
+	${PROJECT_SOURCE_DIR}/src/svm.h 
+	${PROJECT_SOURCE_DIR}/src/svm.cpp
 )
-ADD_EXECUTABLE(svm_train svm_train.cpp)
-ADD_EXECUTABLE(svm_predict svm_predict.cpp)
+ADD_EXECUTABLE(svm_train    ${PROJECT_SOURCE_DIR}/src/svm_train.cpp)
+ADD_EXECUTABLE(svm_predict  ${PROJECT_SOURCE_DIR}/src/svm_predict.cpp)
 
 # Set target properties
 SET_TARGET_PROPERTIES(svm_lib PROPERTIES OUTPUT_NAME ${LIB_PREFIX}_svm_lib)

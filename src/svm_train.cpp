@@ -107,7 +107,7 @@ int main()
 	
 	// List folders of dataset
 	cout << "Loading data..." << endl;
-	string dir = string("dataset/");
+	string dir = string("../dataset/");
 	vector<string> files = vector<string>();
 	getdir(dir, files);
 	for (unsigned int i = 0;i < files.size();i++) {

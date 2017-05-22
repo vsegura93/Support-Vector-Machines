@@ -68,7 +68,7 @@ int main()
 	struct svm_node *x_space;
 
 	// Load image
-	string dir = string("dataset/4/image_0037.jpg");
+	string dir = string("../dataset/4/image_0037.jpg");
 	Mat image = imread(dir, 0);	
 	cout << "Image: " << dir <<  endl;
 
