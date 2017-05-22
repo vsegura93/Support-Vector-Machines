@@ -1,8 +1,4 @@
-# SVM usage
-
-Main files: svm_train.cpp and svm_predict.cpp
-
-# Support Vector Machines functions
+# Support Vector Machines
 
 Library Usage
 =============
